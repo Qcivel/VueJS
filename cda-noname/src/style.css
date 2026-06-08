@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+.navbar{
+    display: flex;
+    gap:30px;
+    list-style-type:none;
+}
+
+h2{
+    font-size:1.2em;
+    color: red;
+    margin-top:10px;
+}
+
+img{
+    padding:20px;
+    border-radius:200px;
+}
+
+.count{
+    display:flex;
+    gap: 10px;
+}
