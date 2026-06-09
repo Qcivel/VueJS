@@ -8,6 +8,7 @@ const router = createRouter({
         { path: '/text', name: 'Text', component: () => import('../components/Text.vue') },
         { path: '/dataBinding', name: 'DataBinding', component: () => import('../components/DataBinding.vue') },
         { path: '/compteur', name: 'Compteur', component: () => import('../components/Compteur.vue') },
+        { path: '/eventBinding', name: 'EventBinding', component: () => import('../components/EventBinding.vue') },
     ],
 });
 

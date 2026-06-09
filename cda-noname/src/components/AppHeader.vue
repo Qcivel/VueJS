@@ -1,14 +1,28 @@
 <template>
-    <div class="navbar">
-        <h1>MA NAVBAR</h1>
-        <li><RouterLink to="/">Home</RouterLink></li>
-        <li><RouterLink to="/About">About</RouterLink></li>
-        <li><RouterLink to="/Contact">Contact</RouterLink></li>
-        <li><RouterLink to="/Text">Exercice</RouterLink></li>
-        <li><RouterLink to="/DataBinding">DataBinding</RouterLink></li>
-        <li><RouterLink to="/Compteur">Compteur</RouterLink></li>
-        
-    </div>
+    <div class="navbar bg-base-100 shadow-sm">
+        <div class="flex-1">
+            <a class="btn btn-ghost text-xl">daisyUI</a>
+        </div>
+    <div class="flex-none">
+        <ul class="menu menu-horizontal px-1">
+            <li><a>Link</a></li>
+            <li>
+                <details>
+                    <summary>Parent</summary>
+                        <ul class="bg-base-100 rounded-t-none p-2">
+                            <li><a><RouterLink to="/">Home</RouterLink></a></li>
+                            <li><a><RouterLink to="/About">About</RouterLink></a></li>
+                            <li><a><RouterLink to="/Contact">Contact</RouterLink></a></li>
+                            <li><a><RouterLink to="/Text">Exercice</RouterLink></a></li>
+                            <li><a><RouterLink to="/DataBinding">DataBinding</RouterLink></a></li>
+                            <li><a><RouterLink to="/Compteur">Compteur</RouterLink></a></li>
+                            <li><a><RouterLink to="/EventBinding">EventBinding</RouterLink></a></li>
+                        </ul>
+                </details>
+            </li>
+        </ul>
+  </div>
+</div>
 </template>
 
 <script setup lang='js'>

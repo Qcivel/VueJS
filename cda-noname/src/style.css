@@ -3,10 +3,8 @@
   themes: all;
 }
 
-.navbar{
-    display: flex;
-    gap:30px;
-    list-style-type:none;
+ul{
+    margin-right:50px;
 }
 
 h2{
