@@ -18,6 +18,7 @@ import { ref } from 'vue';
 
 const uneString = ref('Bonjour');
 const string = ref('Bonjour');
+
 function capterInput(event) {
     console.log('event');
     console.log(event);

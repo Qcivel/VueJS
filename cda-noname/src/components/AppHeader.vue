@@ -17,6 +17,10 @@
                             <li><a><RouterLink to="/DataBinding">DataBinding</RouterLink></a></li>
                             <li><a><RouterLink to="/Compteur">Compteur</RouterLink></a></li>
                             <li><a><RouterLink to="/EventBinding">EventBinding</RouterLink></a></li>
+                            <li><a><RouterLink to="/CompteurWatchers">CompteurWatchers</RouterLink></a></li>
+                            <li><a><RouterLink to="/DynamicStyling">Dynamic Styling</RouterLink></a></li>
+                            <li><a><RouterLink to="/StyleDynamique">Style Dynamique</RouterLink></a></li>
+                            <li><a><RouterLink to="/VIf">Vif</RouterLink></a></li>
                         </ul>
                 </details>
             </li>
