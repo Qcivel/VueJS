@@ -21,6 +21,10 @@
                             <li><a><RouterLink to="/DynamicStyling">Dynamic Styling</RouterLink></a></li>
                             <li><a><RouterLink to="/StyleDynamique">Style Dynamique</RouterLink></a></li>
                             <li><a><RouterLink to="/VIf">Vif</RouterLink></a></li>
+                            <li><a><RouterLink to="/LifeCycle">Life Cycle + Fetch API</RouterLink></a></li>
+                            <li><a><RouterLink to="/MessageCard">MessageCard</RouterLink></a></li>
+                            <li><a><RouterLink to="/Lesson-props">lesson-props</RouterLink></a></li>
+                            <li><a><RouterLink to="/ExoProps">ExoProps</RouterLink></a></li>
                         </ul>
                 </details>
             </li>

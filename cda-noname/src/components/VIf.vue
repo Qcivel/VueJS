@@ -27,7 +27,6 @@ function AddFilm(event){
 
 function selectButton(){
     film.value.push(unFilm.value);
-    
 }
 
 function deleteFilm(index){

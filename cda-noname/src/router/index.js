@@ -13,6 +13,10 @@ const router = createRouter({
         { path: '/dynamicStyling', name: ' DynamicStyling', component: () => import('../components/DynamicStyling.vue') },
         { path: '/styleDynamique', name: ' StyleDynamique', component: () => import('../components/StyleDynamique.vue') },
         { path: '/vIf', name: ' VIf', component: () => import('../components/VIf.vue') },
+        { path: '/lifeCycle', name: ' LifeCycle', component: () => import('../components/LifeCycle.vue') },
+        { path: '/messageCard', name: ' MessageCard', component: () => import('../components/MessageCard.vue') },
+        { path: '/lesson-props', name: ' Lesson-props', component: () => import('../components/Lesson-props.vue') },
+        { path: '/exoProps', name: ' ExoProps', component: () => import('../components/ExoProps.vue') },
     ],
 });
 
